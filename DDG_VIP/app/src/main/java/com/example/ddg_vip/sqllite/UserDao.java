@@ -1,37 +1,35 @@
 package com.example.ddg_vip.sqllite;
 
-import java.util.Date;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+
+import com.example.ddg_vip.model.User;
 
 public class UserDao {
-     public Integer Id_User;
-     public String User_Name;
-     public String Address;
-     public String Use_Password;
-     public String Full_Name;
-     public Date BrithDay;
-     public String Gender;
-     public String Mail;
-     public String Phone;
-     public String Role;
-     public String Qualification;
-     public Integer Salary;
-     public String Startworking;
+    private SQLiteDatabase db;
 
-    public UserDao(Integer id_User, String user_Name, String address, String use_Password,
-                   String full_Name, Date brithDay, String gender, String mail, String phone,
-                   String role, String qualification, Integer salary, String startworking) {
-        Id_User = id_User;
-        User_Name = user_Name;
-        Address = address;
-        Use_Password = use_Password;
-        Full_Name = full_Name;
-        BrithDay = brithDay;
-        Gender = gender;
-        Mail = mail;
-        Phone = phone;
-        Role = role;
-        Qualification = qualification;
-        Salary = salary;
-        Startworking = startworking;
+    public UserDao(Context context) {
+        DBHelper helper = new DBHelper(context);
+        this.db = helper.getWritableDatabase();
+    }
+
+    public long insert(User emp){
+       ContentValues values = new ContentValues();
+        values.put("iduser",emp.getIdUser());
+        values.put("name",emp.getUserName());
+        values.put("address",emp.getAddress());
+        values.put("password",emp.getUsePassword());
+        values.put("fullname",emp.getFullName());
+        values.put("brithday",emp.getBrithDay().getTime());
+        values.put("gender",emp.getGender());
+        values.put("mail",emp.getMail());
+        values.put("phone",emp.getPhone());
+        values.put("role",emp.getRole());
+        values.put("qualification",emp.getQualification());
+        values.put("salary",emp.getSalary());
+        values.put("startworking",emp.getStart_working());
+
+       return db.insert("User",null,values);
     }
 }
