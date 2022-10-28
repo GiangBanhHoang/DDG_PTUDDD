@@ -10,11 +10,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:weightSum="8"
         android:orientation="horizontal"
         android:background="@color/white">
-        <!--linnerlayout 3-->
+        <!--linnerlayout con 11-->
         <LinearLayout
             android:layout_weight="4"
             android:layout_width="0dp"
@@ -62,13 +62,14 @@
             android:textColor="@color/black">
         </Button>
               </LinearLayout>
-        <!--linnerlayout 3-->
+        <!--linnerlayout con 12-->
         <LinearLayout
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_height="wrap_content">
         </LinearLayout>
-        <!--linnerlayout 4-->
+
+        <!--linnerlayout con 13-->
         <LinearLayout
             android:layout_weight="2"
             android:layout_width="0dp"
@@ -100,104 +101,318 @@
     </LinearLayout>
     <!--linerlayout 2-->
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="18"
         android:orientation="vertical"
         android:weightSum="3">
+        <!--linerlayout con 21-->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:padding="20dp"
+            android:weightSum="5"
             android:orientation="vertical">
-
+            <!--linerlayout con 211-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/sangtao">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nơi thỏa sức đam mê học tập"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold"></TextView>
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="12"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/sangtao">
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nơi thỏa sức đam mê học tập"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tại đây, bạn thỏa sức sáng tạo các sản phẩm dựa trên các bài học"
+                            android:textColor="@color/black"
+                            android:textSize="10sp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
+                <!--linerlayout con 212-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:weightSum="12"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/congnghe">
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Định hướng nghề nghiệp"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Học lập trình giúp bạn có được những kiến thức tốt nhât để làm quen với các công nghệ, thích nghi với cuộc sống thời đại 4.0"
+                            android:textColor="@color/black"
+                            android:textSize="10sp">
+                        </TextView>
 
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:text="Trang web này là nơi chúng tôi tạo ra các bài học bổ ích">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:text="Tại đây, bạn thỏa sức sáng tạo các sản phẩm dựa trên các bài học">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/congnghe"
-                android:text="Định hướng nghề nghiệp"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:text="Học lập trình giúp bạn có được những kiến thức tốt nhât để làm quen với các công nghệ, thích nghi với cuộc sống thời đại 4.0">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/nghenghiep"
-                android:text="Sẻ chia kinh nghiệp lập trình"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="10sp"
-                android:textColor="@color/black"
-                android:text="Kỹ năng lập trình có xu hướng đa dạng hơn phục vụ cho nhu cầu phát triển của mọi ngành nghề. DDG đồng hành cùng bạn để chia sẻ, làm giàu thêm kinh nghiệm lập trình.">
-            </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tại đây, bạn thỏa sức sáng tạo các sản phẩm dựa trên các bài học"
+                            android:textColor="@color/black"
+                            android:textSize="10sp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kỹ năng lập trình có xu hướng đa dạng hơn phục vụ cho nhu cầu phát triển của mọi ngành nghề. DDG đồng hành cùng bạn để chia sẻ, làm giàu thêm kinh nghiệm lập trình."
+                            android:textColor="@color/black"
+                            android:textSize="10sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+                <!--linerlayout con 213-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="12"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/nghenghiep">
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sẻ chia kinh nghiệp lập trình"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kỹ năng lập trình có xu hướng đa dạng hơn phục vụ cho nhu cầu phát triển của mọi ngành nghề. DDG đồng hành cùng bạn để chia sẻ, làm giàu thêm kinh nghiệm lập trình."
+                            android:textColor="@color/black"
+                            android:textSize="10sp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
-        <!--noi dung-->
+
+        <!--noi dung con 22==========================================-->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/backgroundtrangchu">
-            </ImageView>
-        </LinearLayout>
-        <!--noi dung 2-->
-        <LinearLayout
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            </ImageView>
+            android:layout_height="wrap_content"
+            android:src="@drawable/backgroundtrangchu"></ImageView>
         </LinearLayout>
-    </LinearLayout>
+
+        <!--noi dung con 23==========================================-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="vertical">
+            <!--noi dung con 231-->
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="3"
+              android:weightSum="3"
+              android:orientation="horizontal"
+              >
+              <LinearLayout
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:weightSum="5">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4">
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:src="@drawable/laptrinh1">
+                      </ImageView>
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1">
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Vũ Long"
+                          android:textSize="15sp"
+                          android:gravity="center"
+                          android:textColor="@color/black">
+                      </TextView>
+                  </LinearLayout>
+              </LinearLayout>
+              <!--noi dung con 232-->
+              <LinearLayout
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:weightSum="5">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4">
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:src="@drawable/laptrinh2">
+                      </ImageView>
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1">
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Tấn Trung"
+                          android:gravity="center"
+                          android:textSize="15sp"
+                          android:textColor="@color/black">
+                      </TextView>
+                  </LinearLayout>
+              </LinearLayout>
+              <!--noi dung con 233-->
+              <LinearLayout
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:weightSum="5">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="4">
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:src="@drawable/laptrinh3">
+                      </ImageView>
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1">
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Hoàng Giang"
+                          android:gravity="center"
+                          android:textSize="15sp"
+                          android:textColor="@color/black">
+                      </TextView>
+                  </LinearLayout>
+              </LinearLayout>
+          </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Liên hệ:0123456789"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email: DDG@uit.edu.vn"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ:Trường đại học công nghệ thông tin"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+            </LinearLayout>
+          </LinearLayout>
+   </LinearLayout>
 </LinearLayout>
