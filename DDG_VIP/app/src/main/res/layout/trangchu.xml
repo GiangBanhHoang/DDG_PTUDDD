@@ -387,31 +387,68 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Liên hệ:0123456789"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Email: DDG@uit.edu.vn"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Địa chỉ:Trường đại học công nghệ thông tin"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Liên hệ: Nhóm 16"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email: DDG@uit.edu.vn"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Địa chỉ:Trường đại học công nghệ thông tin"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giới thiệu"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Thông tin liên hệ"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giải đáp thắc mắc"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+                    </TextView>
+                </LinearLayout>
             </LinearLayout>
           </LinearLayout>
    </LinearLayout>
