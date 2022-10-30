@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.trangchu);
 
-        DBHelper dbHelper = new DBHelper(this);
-        SQLiteDatabase database = dbHelper.getReadableDatabase();
-        database.close();
+//        DBHelper dbHelper = new DBHelper(this);
+//        SQLiteDatabase database = dbHelper.getReadableDatabase();
+//        database.close();
     }
 }
 /*
