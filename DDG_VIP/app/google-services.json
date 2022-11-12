@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239932919505",
+    "project_id": "ddg-vip",
+    "storage_bucket": "ddg-vip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239932919505:android:ea2ba5e2b2070e4cce7ff0",
+        "android_client_info": {
+          "package_name": "com.example.ddg_vip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239932919505-p2vebtobc8fb3pa3d4iprep0pvpuhenb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGBxlmwE5vd7_jUDkhLsC6a5ElTj4OoCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239932919505-p2vebtobc8fb3pa3d4iprep0pvpuhenb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
