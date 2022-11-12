@@ -4,9 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Exercise;
-
-import java.util.Date;
+import com.example.ddg_vip.class_DDG.Exercise;
 
 public class ExerciseDao {
     private SQLiteDatabase db;

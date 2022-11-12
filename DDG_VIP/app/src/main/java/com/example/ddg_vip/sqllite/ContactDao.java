@@ -3,11 +3,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Contact;
-
-import org.w3c.dom.Text;
-
-import java.sql.Time;
+import com.example.ddg_vip.class_DDG.Contact;
 
 public class ContactDao {
     private SQLiteDatabase db;

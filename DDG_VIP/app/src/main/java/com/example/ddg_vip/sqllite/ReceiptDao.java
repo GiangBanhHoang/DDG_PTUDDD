@@ -4,9 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Receipt;
-
-import java.util.Date;
+import com.example.ddg_vip.class_DDG.Receipt;
 
 public class ReceiptDao {
     private SQLiteDatabase db;

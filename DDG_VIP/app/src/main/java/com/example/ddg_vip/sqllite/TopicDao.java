@@ -4,8 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Topic;
-import com.example.ddg_vip.model.User;
+import com.example.ddg_vip.class_DDG.Topic;
 
 public class TopicDao {
     private SQLiteDatabase db;

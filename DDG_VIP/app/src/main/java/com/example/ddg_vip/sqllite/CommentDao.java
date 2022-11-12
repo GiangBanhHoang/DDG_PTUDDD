@@ -4,7 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Comment;
+import com.example.ddg_vip.class_DDG.Comment;
 
 public class CommentDao {
     private SQLiteDatabase db;

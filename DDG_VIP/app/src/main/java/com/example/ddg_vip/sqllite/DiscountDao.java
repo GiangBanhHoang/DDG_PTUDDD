@@ -4,7 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Discount;
+import com.example.ddg_vip.class_DDG.Discount;
 
 public class DiscountDao {
     private SQLiteDatabase db;

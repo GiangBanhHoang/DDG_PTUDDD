@@ -4,10 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.ddg_vip.model.Lesson;
-import com.example.ddg_vip.model.User;
-
-import org.w3c.dom.Text;
+import com.example.ddg_vip.class_DDG.Lesson;
 
 public class LessonDao {
     private SQLiteDatabase db;
